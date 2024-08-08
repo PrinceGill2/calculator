@@ -1,0 +1,54 @@
+body { 
+    width: 100vw;
+    height: 100vh;
+}
+
+.calccontianer { 
+    display: flex;
+    flex-direction: column;
+}
+
+#screen { 
+
+}
+
+.firrow { 
+    display: flex;
+}
+
+.secrow { 
+    display: flex;
+}
+
+.thirow { 
+    display: flex;
+}
+
+.fourow { 
+    display: flex;
+}
+
+.fivrow { 
+    display: flex;
+}
+
+.special { 
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button { 
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.operator { 
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
