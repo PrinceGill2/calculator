@@ -1,35 +1,77 @@
 body { 
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.calccontianer { 
+.calccontainer { 
     display: flex;
     flex-direction: column;
+    width: 300px;
+    height: 450px;
+    background-color: black;
+    gap: 2px;
+    justify-content: stretch;
+    align-items: stretch;
+    border: solid black;
+
 }
 
 #screen { 
-
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 1;
+    background-color: grey;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .firrow { 
     display: flex;
+    gap: 2px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+    justify-content: stretch;
 }
 
 .secrow { 
     display: flex;
+    gap: 2px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+    justify-content: stretch;
 }
 
 .thirow { 
     display: flex;
+    gap: 2px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+    justify-content: stretch;
 }
 
 .fourow { 
     display: flex;
+    gap: 2px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+    justify-content: stretch;
 }
 
 .fivrow { 
     display: flex;
+     gap: 2px;
+     flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+    justify-content: stretch;
 }
 
 .special { 
@@ -37,6 +79,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+
 }
 
 .button { 
@@ -44,6 +90,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+
+}
+
+.zeroButton { 
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 1;
+
 }
 
 .operator { 
@@ -51,4 +112,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+
 }
